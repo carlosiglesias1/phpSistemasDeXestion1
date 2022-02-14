@@ -1,0 +1,50 @@
+.modal-contenido{
+    background-color:aqua;
+    width:fit-content;
+    padding: 10px 20px;
+    margin: 20% auto;
+    position: relative;
+  }
+  .modal{
+    background-color: rgba(0,0,0,.8);
+    position:fixed;
+    top:0;
+    right:0;
+    bottom:0;
+    left:0;
+    opacity:0;
+    pointer-events:none;
+    transition: all 0.5s;
+  }
+  #modalForm:target{
+    opacity:1;
+    pointer-events:auto;
+  }
+  #modalForm table{
+      margin-top: 5%;
+      position: relative;
+  }
+  #modalForm table, th, td{
+      border: 1px solid black;
+  }
+
+  #modalForm a{
+      background-color: antiquewhite;
+      border-radius: 30%;
+      text-decoration: none;
+      font-size: 200%;
+      font-family: Arial, Helvetica, sans-serif;
+      color: black;
+      padding: 1%;
+  }
+
+  #modalForm a:hover{
+    background-color: crimson;
+    color: aliceblue;
+    border-radius: 20%;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  form{
+      float: right;
+  }
